@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About us" },
-  { href: "/resources", label: "Resources" },
-  { href: "/contact", label: "Contact us" },
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About us' },
+  { href: '/resources', label: 'Resources' },
+  { href: '/contact', label: 'Contact us' },
 ];
 
 export function SiteHeader() {
@@ -19,8 +19,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-[57px] w-full max-w-[1192px] items-center justify-between px-6">
         <Link
           href="/"
-          className="flex items-center gap-2.5 text-lg font-bold tracking-tight text-foreground"
-        >
+          className="flex items-center gap-2.5 text-lg font-bold tracking-tight text-foreground">
           <Image
             src="/heart-love.png"
             alt="Polarisation Support logo"
@@ -38,22 +37,21 @@ export function SiteHeader() {
                 href={link.href}
                 className={
                   pathname === link.href
-                    ? "text-sm text-foreground"
-                    : "text-sm text-muted transition-colors hover:text-foreground"
-                }
-              >
+                    ? 'text-sm text-foreground'
+                    : 'text-sm text-muted transition-colors hover:text-foreground'
+                }>
                 {link.label}
               </Link>
             ))}
           </div>
           <Link
             href="/contact"
-            className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent-dark"
-          >
-            Get help
+            className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent-dark">
+            French
           </Link>
         </nav>
       </div>
     </header>
   );
 }
+

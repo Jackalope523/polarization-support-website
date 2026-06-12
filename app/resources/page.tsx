@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { audiences } from "./resources-data";
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { audiences } from './resources-data';
 
 export const metadata: Metadata = {
-  title: "Resources",
+  title: 'Resources',
   description:
-    "Resources for parents, teachers, and mental health professionals concerned about polarization and radicalization in Québec.",
+    'Resources for parents, teachers, and mental health professionals concerned about polarization and radicalization in Québec.',
 };
 
 export default function ResourcesPage() {
@@ -21,7 +21,7 @@ export default function ResourcesPage() {
           </h1>
           <p className="mt-8 font-serif text-lg leading-8 text-muted">
             Polarization rarely touches just one person. Whether you are a
-            parent, a teacher, or a professional, there is a path forward — and
+            parent, a teacher, or a professional, there is a path forward and
             resources to help you take it. Choose what fits you best.
           </p>
         </div>
@@ -34,13 +34,12 @@ export default function ResourcesPage() {
               <li key={audience.slug} className="bg-background">
                 <Link
                   href={`/resources/${audience.slug}`}
-                  className="group flex h-full flex-col p-8 transition-colors hover:bg-brand-soft/50"
-                >
+                  className="group flex h-full flex-col p-8 transition-colors hover:bg-brand-soft/50">
                   <h2 className="font-serif text-2xl tracking-tight">
                     {audience.navLabel}
                   </h2>
                   <p className="mt-3 flex-1 font-serif text-[15px] leading-7 text-muted">
-                    {audience.intro.split(".")[0]}.
+                    {audience.intro.split('.')[0]}.
                   </p>
                   <span className="mt-6 text-sm font-medium text-brand group-hover:text-brand-dark">
                     View resources →
@@ -55,15 +54,14 @@ export default function ResourcesPage() {
       <section>
         <div className="mx-auto w-full max-w-[680px] px-6 py-16">
           <p className="font-serif text-lg leading-8 text-muted">
-            Not sure which of these fits you? It doesn&apos;t matter. If you
-            are concerned about someone, contact us and we will point you to
-            the right people — including clinical help, social workers, and
-            partner resources across Québec.
+            Not sure which of these fits you? It doesn&apos;t matter. If you are
+            concerned about someone, contact us and we will point you to the
+            right people — including clinical help, social workers, and partner
+            resources across Québec.
           </p>
           <Link
             href="/contact"
-            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark"
-          >
+            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark">
             Contact us
           </Link>
         </div>
@@ -71,3 +69,4 @@ export default function ResourcesPage() {
     </>
   );
 }
+
