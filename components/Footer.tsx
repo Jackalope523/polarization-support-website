@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-export function SiteFooter() {
+export function Footer() {
   return (
     <footer className="border-t border-line-strong">
       <div className="mx-auto w-full max-w-[1192px] px-6 py-14">
@@ -28,24 +28,21 @@ export function SiteFooter() {
                 <li>
                   <Link
                     href="/about"
-                    className="text-muted hover:text-foreground"
-                  >
+                    className="text-muted hover:text-foreground">
                     About us
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/resources"
-                    className="text-muted hover:text-foreground"
-                  >
+                    className="text-muted hover:text-foreground">
                     Resources
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/contact"
-                    className="text-muted hover:text-foreground"
-                  >
+                    className="text-muted hover:text-foreground">
                     Contact us
                   </Link>
                 </li>
@@ -59,16 +56,14 @@ export function SiteFooter() {
                 <li>
                   <a
                     href="tel:+14388242718"
-                    className="text-muted hover:text-foreground"
-                  >
+                    className="text-muted hover:text-foreground">
                     438-824-2718
                   </a>
                 </li>
                 <li>
                   <a
                     href="mailto:info@polarisationsupport.ca"
-                    className="text-muted hover:text-foreground"
-                  >
+                    className="text-muted hover:text-foreground">
                     info@polarisationsupport.ca
                   </a>
                 </li>
@@ -79,8 +74,8 @@ export function SiteFooter() {
         </div>
         <div className="mt-12 border-t border-line pt-6 text-[13px] text-muted">
           <p>
-            If someone is in immediate danger, call 911. In crisis, call or
-            text 9-8-8 anytime.
+            If someone is in immediate danger, call 911. In crisis, call or text
+            9-8-8 anytime.
           </p>
           <p className="mt-2">
             © {new Date().getFullYear()} Polarisation Support · Privacy policy

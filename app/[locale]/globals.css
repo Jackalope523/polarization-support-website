@@ -4,12 +4,12 @@
   --background: #ffffff;
   --foreground: #242424;
   --muted: #6b6b6b;
-  --accent: #4577aa;
-  --accent-dark: #3a6491;
-  --accent-soft: #eef3fa;
-  --brand: #4079be;
-  --brand-dark: #335f93;
-  --brand-soft: #eef3fa;
+  --accent: #c4631f;
+  --accent-dark: #a4501a;
+  --accent-soft: #fdf2e9;
+  --brand: #c4631f;
+  --brand-dark: #9e4d18;
+  --brand-soft: #fdf2e9;
   --line: #f2f2f2;
   --line-strong: #e6e6e6;
 }

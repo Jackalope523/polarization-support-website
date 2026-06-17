@@ -11,7 +11,7 @@ const links = [
   { href: '/contact', label: 'Contact us' },
 ];
 
-export function SiteHeader() {
+export function Header() {
   const pathname = usePathname();
 
   return (
@@ -54,4 +54,3 @@ export function SiteHeader() {
     </header>
   );
 }
-
