@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ResourceDownloads } from "../../components/resource-downloads";
+import { ResourceDownloads } from "@/components/ResourceDownloads";
 import { audiences, getAudience } from "../resources-data";
 
 export function generateStaticParams() {
