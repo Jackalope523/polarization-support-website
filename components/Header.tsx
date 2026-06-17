@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useLocale } from 'next-intl';
+import { Link, usePathname } from '@/i18n/navigation';
 
 const links = [
   { href: '/', label: 'Home' },
@@ -13,6 +13,10 @@ const links = [
 
 export function Header() {
   const pathname = usePathname();
+  const locale = useLocale();
+
+  const otherLocale = locale === 'fr' ? 'en' : 'fr';
+  const otherLabel = locale === 'fr' ? 'English' : 'Français';
 
   return (
     <header className="sticky top-0 z-50 border-b border-line-strong bg-background/95 backdrop-blur-sm">
@@ -45,9 +49,10 @@ export function Header() {
             ))}
           </div>
           <Link
-            href="/contact"
+            href={pathname}
+            locale={otherLocale}
             className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent-dark">
-            French
+            {otherLabel}
           </Link>
         </nav>
       </div>
