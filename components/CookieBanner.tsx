@@ -11,29 +11,29 @@ export default function CookieBanner() {
       role="dialog"
       aria-live="polite"
       aria-label={t('title')}
-      className="fixed inset-x-0 bottom-0 z-50 bg-[#ffe600] border-t-[3px] border-black">
-      <div className="mx-auto max-w-6xl px-4 md:px-6 py-4 md:py-5 flex flex-col md:flex-row md:items-center gap-4 md:gap-6">
-        <p className="text-sm md:text-base font-medium text-black flex-1">
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-line-strong bg-background/95 backdrop-blur-sm">
+      <div className="mx-auto flex w-full max-w-[1192px] flex-col gap-4 px-6 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
+        <p className="flex-1 font-serif text-[15px] leading-6 text-muted">
           {t('message')}{' '}
           <a
             href="/privacy-policy.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4 font-bold">
+            className="text-foreground underline underline-offset-4 transition-colors hover:text-brand">
             {t('learnMore')}
           </a>
         </p>
-        <div className="flex gap-3 shrink-0">
+        <div className="flex shrink-0 items-center gap-3">
           <button
             type="button"
             onClick={() => declineConsentCookie()}
-            className="px-4 py-2 border-[3px] border-black bg-white text-black text-sm font-extrabold uppercase hover:bg-black hover:text-white">
+            className="inline-flex h-10 items-center justify-center rounded-full border border-line-strong px-5 text-sm font-medium text-foreground transition-colors hover:bg-brand-soft">
             {t('reject')}
           </button>
           <button
             type="button"
             onClick={() => setConsentCookie()}
-            className="px-4 py-2 border-[3px] border-black bg-black text-white text-sm font-extrabold uppercase hover:bg-[#ff5fa2] hover:text-black">
+            className="inline-flex h-10 items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-white transition-colors hover:bg-accent-dark">
             {t('accept')}
           </button>
         </div>
