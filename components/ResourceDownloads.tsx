@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import type { ResourceDownload } from "@/app/[locale]/resources/resources-data";
 
 function DownloadIcon() {
@@ -25,15 +26,16 @@ export function ResourceDownloads({
 }: {
   downloads: ResourceDownload[];
 }) {
+  const t = useTranslations("ResourceDownloads");
+
   if (downloads.length === 0) {
     return (
       <div className="rounded-lg border border-dashed border-line-strong bg-brand-soft/40 px-6 py-10 text-center">
         <p className="font-serif text-lg text-foreground">
-          Resources are on the way.
+          {t("comingSoonTitle")}
         </p>
         <p className="mt-2 font-serif text-base leading-7 text-muted">
-          We&apos;re preparing downloadable guides for this page. In the
-          meantime, reach out and we&apos;ll share what you need directly.
+          {t("comingSoonBody")}
         </p>
       </div>
     );

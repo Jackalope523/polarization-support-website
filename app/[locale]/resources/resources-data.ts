@@ -13,12 +13,6 @@ export type AudienceSlug = "parents" | "teachers" | "professionals";
 
 export type Audience = {
   slug: AudienceSlug;
-  /** Short label used in nav and cards, e.g. "Parents". */
-  navLabel: string;
-  /** Page heading, e.g. "For parents". */
-  title: string;
-  /** Intro paragraph shown under the heading. */
-  intro: string;
   /**
    * PDF downloads for this audience. Leave empty until the files are ready —
    * the page will show a "coming soon" state automatically.
@@ -29,31 +23,15 @@ export type Audience = {
   downloads: ResourceDownload[];
 };
 
+/**
+ * Structural data only. The user-facing text for each audience (nav label,
+ * page title, intro) lives in `messages/<locale>.json` under the `Audiences`
+ * namespace, keyed by slug.
+ */
 export const audiences: Audience[] = [
-  {
-    slug: "parents",
-    navLabel: "Parents",
-    title: "For parents",
-    intro:
-      "You know your child better than anyone — and that is exactly why noticing them withdraw, harden their views, or pull toward extreme online spaces is so painful. These resources can help you understand what you are seeing, keep the conversation open, and decide when and how to seek further help.",
-    downloads: [],
-  },
-  {
-    slug: "teachers",
-    navLabel: "Teachers",
-    title: "For teachers",
-    intro:
-      "Educators are often the first to notice a student isolating themselves, echoing extreme rhetoric, or shifting in worrying ways. These resources offer guidance on how to respond in the classroom, how to raise concerns appropriately, and where to refer a student or family for support.",
-    downloads: [],
-  },
-  {
-    slug: "professionals",
-    navLabel: "Mental health professionals",
-    title: "For mental health professionals",
-    intro:
-      "If a client's situation touches on radicalization or social polarization, you don't have to navigate it alone. These resources support consultation and shared care through our collaboration with RAPS — a multi-disciplinary team spanning social support, psychotherapy, psychiatry, and medical services.",
-    downloads: [],
-  },
+  { slug: "parents", downloads: [] },
+  { slug: "teachers", downloads: [] },
+  { slug: "professionals", downloads: [] },
 ];
 
 export function getAudience(slug: string): Audience | undefined {

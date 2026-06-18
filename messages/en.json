@@ -1,1 +1,155 @@
-{}
+{
+  "Metadata": {
+    "defaultTitle": "Polarisation Support — We can help",
+    "titleTemplate": "%s — Polarisation Support",
+    "description": "Free and confidential psychosocial support in Québec for anyone concerned about a loved one drifting toward risky ideologies."
+  },
+  "Header": {
+    "brand": "Polarisation Support",
+    "logoAlt": "Polarisation Support logo",
+    "home": "Home",
+    "about": "About us",
+    "resources": "Resources",
+    "contact": "Contact us"
+  },
+  "Footer": {
+    "brand": "Polarisation Support",
+    "tagline": "Free and confidential psychosocial support in Québec, in collaboration with RAPS.",
+    "pagesHeading": "Pages",
+    "home": "Home",
+    "about": "About us",
+    "resources": "Resources",
+    "contactHeading": "Contact us",
+    "contact": "Contact us",
+    "replies": "Replies within 24h, Mon–Fri",
+    "emergency": "If someone is in immediate danger, call 911. In crisis, call or text 9-8-8 anytime.",
+    "copyright": "© {year} Polarisation Support · <privacy>Privacy policy</privacy>",
+    "privacyHref": "/privacy-policy-english.pdf"
+  },
+  "CookieConsent": {
+    "title": "Cookie consent",
+    "message": "We use cookies to understand how visitors use our site and to improve your experience.",
+    "learnMore": "Learn more",
+    "reject": "Reject",
+    "accept": "Accept"
+  },
+  "Home": {
+    "eyebrow": "Free & confidential support in Québec",
+    "heroTitle": "Are you concerned about someone? <highlight>We can help.</highlight>",
+    "heroBody": "When someone you love starts drifting toward a dark place, it is hard to know what to do or who to turn to. You don't have to carry it alone.",
+    "heroCtaPrimary": "Reach out to us",
+    "heroCtaSecondary": "Learn how we work",
+    "concernsEyebrow": "Why reach out to us?",
+    "concerns": [
+      "Do you feel like someone you care about is going down a rabbit hole that could put them at risk?",
+      "Are their behaviours and ideas worrying or even scaring you?",
+      "Do you feel somewhat helpless in trying to support this person?",
+      "Are they already facing legal problems?"
+    ],
+    "concernsClosing": "If you answered yes to any of these, you are not alone. We can help you.",
+    "helpEyebrow": "How can we help?",
+    "helpPara1": "We can provide you with free and confidential psychosocial support in Quebec. We can also connect you with resources to support yourself or a loved one.",
+    "helpPara2": "If you or someone you’re concerned about might need access to clinical help or social workers, we can directly connect you with our partners for a more thorough follow up.",
+    "helpPara3": "To contact us now, <link>click here</link> to get free and confidential support.",
+    "missionEyebrow": "Our mission",
+    "goals": [
+      {
+        "title": "Support you",
+        "body": "We stand alongside anyone worried about a loved one's radicalization, offering a confidential and non-judgemental space to talk it through."
+      },
+      {
+        "title": "Protect your wellbeing",
+        "body": "Carrying concern for someone takes a real toll. We help mitigate the impact this situation has on your own mental health."
+      },
+      {
+        "title": "Equip you with tools",
+        "body": "We give you practical tools and guidance so you can be there for the person at risk, without losing yourself in the process."
+      }
+    ],
+    "whoEyebrow": "Who are we?",
+    "whoPara1": "We work in collaboration with RAPS, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
+    "whoPara2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
+    "ctaTitle": "Talk to someone today.",
+    "ctaBody": "Start a live chat using the bubble in the bottom corner of this page, call or text us at <phone>438-824-2718</phone>, or write to <email>info@polarisationsupport.ca</email>. We respond within 24 hours, Monday to Friday.",
+    "ctaButton": "Contact us"
+  },
+  "About": {
+    "metaTitle": "About us",
+    "metaDescription": "Polarisation Support provides specialized, confidential support to individuals and families affected by the current social climate and increasing polarization.",
+    "eyebrow": "About us",
+    "title": "A confidential space for difficult concerns.",
+    "whatHeading": "What we do",
+    "whatPara1": "We provide specialized support to individuals and their families suffering from the current social climate and increasing polarization.",
+    "whatPara2": "We offer a confidential and non-judgemental space to discuss concerns related to social polarization.",
+    "whoHeading": "Who we are",
+    "whoPara1": "We work in collaboration with RAPS, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
+    "whoPara2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
+    "closing": "Wondering whether your situation is “serious enough” to reach out? It is. No concern is too small.",
+    "contactButton": "Contact us"
+  },
+  "Contact": {
+    "metaTitle": "Contact us",
+    "metaDescription": "Reach Polarisation Support by phone, text, or email. Free and confidential — we respond within 24 hours, Monday to Friday.",
+    "eyebrow": "Contact us",
+    "title": "Reaching out is the first step.",
+    "intro": "Everything you tell us is confidential, and our support is free. We respond within 24 hours, Monday to Friday.",
+    "methods": {
+      "callText": {
+        "label": "Call or text",
+        "value": "438-824-2718",
+        "note": "Leave a message if we can't pick up — we will get back to you."
+      },
+      "email": {
+        "label": "Email",
+        "value": "info@polarisationsupport.ca",
+        "note": "Share as much or as little as you are comfortable with."
+      },
+      "liveChat": {
+        "label": "Live chat",
+        "value": "Chat with us in real time",
+        "note": "Look for the chat bubble in the bottom-right corner of any page during office hours, Monday to Friday."
+      }
+    },
+    "expectHeading": "What to expect",
+    "expectBody": "A member of our team will listen to your situation without judgement, help you make sense of what you are seeing, and if it would help connect you with clinical support, social workers, or partner resources near you in Québec.",
+    "emergencyHeading": "In an emergency",
+    "emergencyBody": "If someone is in immediate danger, call 911. If you or someone you know is in crisis, call or text <crisis>9-8-8</crisis> — Canada's suicide crisis helpline, available 24/7."
+  },
+  "Resources": {
+    "metaTitle": "Resources",
+    "metaDescription": "Resources for parents, teachers, and mental health professionals concerned about polarization and radicalization in Québec.",
+    "eyebrow": "Resources",
+    "title": "Support for the people standing closest.",
+    "intro": "Polarization rarely touches just one person. Whether you are a parent, a teacher, or a professional, there is a path forward and resources to help you take it. Choose what fits you best.",
+    "viewResources": "View resources →",
+    "closing": "Not sure which of these fits you? If you are concerned about someone, contact us and we will point you to the right people including clinical help, social workers, and partner resources across Québec.",
+    "contactButton": "Contact us"
+  },
+  "Audiences": {
+    "parents": {
+      "navLabel": "Parents",
+      "title": "For parents",
+      "intro": "You know your child better than anyone and that is exactly why noticing them withdraw, harden their views, or pull toward extreme online spaces is so painful. These resources can help you understand what you are seeing, keep the conversation open, and decide when and how to seek further help."
+    },
+    "teachers": {
+      "navLabel": "Teachers",
+      "title": "For teachers",
+      "intro": "Educators are often the first to notice a student isolating themselves, echoing extreme rhetoric, or shifting in worrying ways. These resources offer guidance on how to respond in the classroom, how to raise concerns appropriately, and where to refer a student or family for support."
+    },
+    "professionals": {
+      "navLabel": "Mental health professionals",
+      "title": "For mental health professionals",
+      "intro": "If a client's situation touches on radicalization or social polarization, you don't have to navigate it alone. These resources support consultation and shared care through our collaboration with RAPS — a multi-disciplinary team spanning social support, psychotherapy, psychiatry, and medical services."
+    }
+  },
+  "Audience": {
+    "backLink": "← All resources",
+    "downloadsHeading": "Downloads",
+    "closing": "Have a question these documents don't answer? We're here to talk it through confidentially and free of charge.",
+    "contactButton": "Contact us"
+  },
+  "ResourceDownloads": {
+    "comingSoonTitle": "Resources are on the way.",
+    "comingSoonBody": "We're preparing downloadable guides for this page. In the meantime, reach out and we'll share what you need directly."
+  }
+}

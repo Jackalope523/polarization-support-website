@@ -4,6 +4,7 @@ import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import CookieBanner from '@/components/CookieBanner';
 import { cookies } from 'next/headers';
 import { GoogleTagManager } from '@next/third-parties/google';
@@ -20,14 +21,21 @@ const sourceSerif = Source_Serif_4({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: 'Polarisation Support — We can help',
-    template: '%s — Polarisation Support',
-  },
-  description:
-    'Free and confidential psychosocial support in Québec for anyone concerned about a loved one drifting toward risky ideologies.',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Metadata' });
+  return {
+    title: {
+      default: t('defaultTitle'),
+      template: t('titleTemplate'),
+    },
+    description: t('description'),
+  };
+}
 
 export default async function RootLayout({
   children,

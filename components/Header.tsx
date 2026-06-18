@@ -1,19 +1,20 @@
 'use client';
 
 import Image from 'next/image';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 
 const links = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About us' },
-  { href: '/resources', label: 'Resources' },
-  { href: '/contact', label: 'Contact us' },
-];
+  { href: '/', key: 'home' },
+  { href: '/about', key: 'about' },
+  { href: '/resources', key: 'resources' },
+  { href: '/contact', key: 'contact' },
+] as const;
 
 export function Header() {
   const pathname = usePathname();
   const locale = useLocale();
+  const t = useTranslations('Header');
 
   const otherLocale = locale === 'fr' ? 'en' : 'fr';
   const otherLabel = locale === 'fr' ? 'English' : 'Français';
@@ -26,12 +27,12 @@ export function Header() {
           className="flex items-center gap-2.5 text-lg font-bold tracking-tight text-foreground">
           <Image
             src="/heart-love.png"
-            alt="Polarisation Support logo"
+            alt={t('logoAlt')}
             width={32}
             height={32}
             priority
           />
-          Polarisation Support
+          {t('brand')}
         </Link>
         <nav className="flex items-center gap-6">
           <div className="hidden items-center gap-6 md:flex">
@@ -44,7 +45,7 @@ export function Header() {
                     ? 'text-sm text-foreground'
                     : 'text-sm text-muted transition-colors hover:text-foreground'
                 }>
-                {link.label}
+                {t(link.key)}
               </Link>
             ))}
           </div>
