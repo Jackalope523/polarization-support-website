@@ -1,37 +1,37 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { ResourceDownloads } from '@/components/ResourceDownloads';
-import { audiences, getAudience } from '../resources-data';
+import { getAudience, type AudienceSlug } from '@/app/[locale]/resources/resources-data';
 
-export function generateStaticParams() {
-  return audiences.map((audience) => ({ audience: audience.slug }));
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string; audience: string }>;
-}): Promise<Metadata> {
-  const { locale, audience: slug } = await params;
-  const audience = getAudience(slug);
-  if (!audience) return {};
+/**
+ * Shared metadata for an audience resource page. Each static audience route
+ * (`parents`, `teachers`, `professionals`) calls this from its own
+ * `generateMetadata` with its fixed slug.
+ */
+export async function audienceMetadata(
+  locale: string,
+  slug: AudienceSlug,
+): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'Audiences' });
   return {
-    title: t(`${audience.slug}.title`),
-    description: t(`${audience.slug}.intro`),
+    title: t(`${slug}.title`),
+    description: t(`${slug}.intro`),
   };
 }
 
-export default async function AudiencePage({
-  params,
+/**
+ * Shared content for an audience resource page. The slug is fixed per route,
+ * so there is no dynamic param to validate — `getAudience` always resolves.
+ */
+export async function AudiencePage({
+  locale,
+  slug,
 }: {
-  params: Promise<{ locale: string; audience: string }>;
+  locale: string;
+  slug: AudienceSlug;
 }) {
-  const { locale, audience: slug } = await params;
-  const audience = getAudience(slug);
-  if (!audience) notFound();
+  const audience = getAudience(slug)!;
 
   const t = await getTranslations({ locale, namespace: 'Audience' });
   const tAudiences = await getTranslations({ locale, namespace: 'Audiences' });
