@@ -1,1 +1,155 @@
-{}
+{
+  "Metadata": {
+    "defaultTitle": "Polarisation Support — Nous pouvons vous aider",
+    "titleTemplate": "%s — Polarisation Support",
+    "description": "Soutien psychosocial gratuit et confidentiel au Québec pour toute personne inquiète de voir un proche glisser vers des idéologies à risque."
+  },
+  "Header": {
+    "brand": "Polarisation Support",
+    "logoAlt": "Logo de Polarisation Support",
+    "home": "Accueil",
+    "about": "À propos",
+    "resources": "Ressources",
+    "contact": "Nous joindre"
+  },
+  "Footer": {
+    "brand": "Polarisation Support",
+    "tagline": "Soutien psychosocial gratuit et confidentiel au Québec, en collaboration avec le RAPS.",
+    "pagesHeading": "Pages",
+    "home": "Accueil",
+    "about": "À propos",
+    "resources": "Ressources",
+    "contactHeading": "Nous joindre",
+    "contact": "Nous joindre",
+    "replies": "Réponses en 24 h, du lundi au vendredi",
+    "emergency": "Si une personne est en danger immédiat, composez le 911. En situation de crise, appelez ou textez le 9-8-8 en tout temps.",
+    "copyright": "© {year} Polarisation Support · <privacy>Politique de confidentialité</privacy>",
+    "privacyHref": "/privacy-policy-french.pdf"
+  },
+  "CookieConsent": {
+    "title": "Consentement aux témoins",
+    "message": "Nous utilisons des témoins pour comprendre comment les visiteurs utilisent notre site et pour améliorer votre expérience.",
+    "learnMore": "En savoir plus",
+    "reject": "Refuser",
+    "accept": "Accepter"
+  },
+  "Home": {
+    "eyebrow": "Soutien gratuit et confidentiel au Québec",
+    "heroTitle": "Vous vous inquiétez pour quelqu’un ? <highlight>Nous pouvons vous aider.</highlight>",
+    "heroBody": "Quand une personne que vous aimez commence à sombrer, il est difficile de savoir quoi faire ou vers qui se tourner. Vous n’avez pas à porter ce fardeau seul.",
+    "heroCtaPrimary": "Communiquez avec nous",
+    "heroCtaSecondary": "Découvrez notre approche",
+    "concernsEyebrow": "Pourquoi nous consulter ?",
+    "concerns": [
+      "Avez-vous l’impression qu’une personne qui vous est chère s’enfonce dans une spirale qui pourrait la mettre en danger ?",
+      "Ses comportements et ses idées vous inquiètent-ils, voire vous effraient-ils ?",
+      "Vous sentez-vous quelque peu impuissant à soutenir cette personne ?",
+      "Fait-elle déjà face à des problèmes juridiques ?"
+    ],
+    "concernsClosing": "Si vous avez répondu oui à l’une de ces questions, vous n’êtes pas seul. Nous pouvons vous aider.",
+    "helpEyebrow": "Comment pouvons-nous aider ?",
+    "helpPara1": "Nous pouvons vous offrir un soutien psychosocial gratuit et confidentiel au Québec. Nous pouvons aussi vous orienter vers des ressources pour vous soutenir, vous ou un proche.",
+    "helpPara2": "Si vous-même ou une personne qui vous préoccupe avez besoin d’accéder à de l’aide clinique ou à des travailleurs sociaux, nous pouvons vous mettre directement en lien avec nos partenaires pour un suivi plus approfondi.",
+    "helpPara3": "Pour nous joindre dès maintenant, <link>cliquez ici</link> afin d’obtenir un soutien gratuit et confidentiel.",
+    "missionEyebrow": "Notre mission",
+    "goals": [
+      {
+        "title": "Vous soutenir",
+        "body": "Nous accompagnons toute personne préoccupée par la radicalisation d’un proche, en lui offrant un espace confidentiel et sans jugement pour en parler."
+      },
+      {
+        "title": "Protéger votre bien-être",
+        "body": "S’inquiéter pour quelqu’un pèse lourd. Nous aidons à atténuer les répercussions de cette situation sur votre propre santé mentale."
+      },
+      {
+        "title": "Vous outiller",
+        "body": "Nous vous offrons des outils concrets et des conseils pour que vous puissiez être présent pour la personne à risque, sans vous perdre en chemin."
+      }
+    ],
+    "whoEyebrow": "Qui sommes-nous ?",
+    "whoPara1": "Nous travaillons en collaboration avec le RAPS, une équipe multidisciplinaire offrant des services qui comprennent le soutien social, l’engagement communautaire, la psychothérapie, la psychiatrie et l’accès à des services médicaux.",
+    "whoPara2": "De concert avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, source de détresse pour bien des gens.",
+    "ctaTitle": "Parlez à quelqu’un dès aujourd’hui.",
+    "ctaBody": "Démarrez un clavardage en direct à l’aide de la bulle dans le coin inférieur de cette page, appelez ou textez-nous au <phone>438-824-2718</phone>, ou écrivez à <email>info@polarisationsupport.ca</email>. Nous répondons en 24 heures, du lundi au vendredi.",
+    "ctaButton": "Nous joindre"
+  },
+  "About": {
+    "metaTitle": "À propos",
+    "metaDescription": "Polarisation Support offre un soutien spécialisé et confidentiel aux personnes et aux familles touchées par le climat social actuel et la polarisation croissante.",
+    "eyebrow": "À propos",
+    "title": "Un espace confidentiel pour des préoccupations difficiles.",
+    "whatHeading": "Ce que nous faisons",
+    "whatPara1": "Nous offrons un soutien spécialisé aux personnes et à leurs familles qui souffrent du climat social actuel et de la polarisation croissante.",
+    "whatPara2": "Nous offrons un espace confidentiel et sans jugement pour discuter de préoccupations liées à la polarisation sociale.",
+    "whoHeading": "Qui nous sommes",
+    "whoPara1": "Nous travaillons en collaboration avec le RAPS, une équipe multidisciplinaire offrant des services qui comprennent le soutien social, l’engagement communautaire, la psychothérapie, la psychiatrie et l’accès à des services médicaux.",
+    "whoPara2": "De concert avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, source de détresse pour bien des gens.",
+    "closing": "Vous vous demandez si votre situation est « assez grave » pour nous consulter ? Elle l’est. Aucune préoccupation n’est trop petite.",
+    "contactButton": "Nous joindre"
+  },
+  "Contact": {
+    "metaTitle": "Nous joindre",
+    "metaDescription": "Joignez Polarisation Support par téléphone, texto ou courriel. Gratuit et confidentiel — nous répondons en 24 heures, du lundi au vendredi.",
+    "eyebrow": "Nous joindre",
+    "title": "Tendre la main, c’est le premier pas.",
+    "intro": "Tout ce que vous nous confiez est confidentiel, et notre soutien est gratuit. Nous répondons en 24 heures, du lundi au vendredi.",
+    "methods": {
+      "callText": {
+        "label": "Appeler ou texter",
+        "value": "438-824-2718",
+        "note": "Laissez un message si nous ne pouvons pas répondre — nous vous rappellerons."
+      },
+      "email": {
+        "label": "Courriel",
+        "value": "info@polarisationsupport.ca",
+        "note": "Partagez autant ou aussi peu que vous le souhaitez."
+      },
+      "liveChat": {
+        "label": "Clavardage en direct",
+        "value": "Clavardez avec nous en temps réel",
+        "note": "Cherchez la bulle de clavardage dans le coin inférieur droit de chaque page durant les heures d’ouverture, du lundi au vendredi."
+      }
+    },
+    "expectHeading": "À quoi s’attendre",
+    "expectBody": "Un membre de notre équipe écoutera votre situation sans jugement, vous aidera à comprendre ce que vous observez et, si cela peut aider, vous mettra en lien avec un soutien clinique, des travailleurs sociaux ou des ressources partenaires près de chez vous au Québec.",
+    "emergencyHeading": "En cas d’urgence",
+    "emergencyBody": "Si une personne est en danger immédiat, composez le 911. Si vous-même ou une personne que vous connaissez êtes en situation de crise, appelez ou textez le <crisis>9-8-8</crisis> — la ligne d’aide en cas de crise suicidaire du Canada, accessible jour et nuit."
+  },
+  "Resources": {
+    "metaTitle": "Ressources",
+    "metaDescription": "Des ressources pour les parents, le personnel enseignant et les professionnels de la santé mentale préoccupés par la polarisation et la radicalisation au Québec.",
+    "eyebrow": "Ressources",
+    "title": "Du soutien pour les personnes les plus proches.",
+    "intro": "La polarisation touche rarement une seule personne. Que vous soyez un parent, un membre du personnel enseignant ou un professionnel, il existe une voie à suivre et des ressources pour vous aider à l’emprunter. Choisissez ce qui vous convient le mieux.",
+    "viewResources": "Voir les ressources →",
+    "closing": "Vous ne savez pas laquelle vous correspond ? Si vous êtes préoccupé par quelqu’un, communiquez avec nous et nous vous orienterons vers les bonnes personnes, y compris de l’aide clinique, des travailleurs sociaux et des ressources partenaires partout au Québec.",
+    "contactButton": "Nous joindre"
+  },
+  "Audiences": {
+    "parents": {
+      "navLabel": "Parents",
+      "title": "Pour les parents",
+      "intro": "Vous connaissez votre enfant mieux que quiconque, et c’est précisément pour cela que le voir se replier, durcir ses opinions ou être attiré par des espaces en ligne extrêmes fait si mal. Ces ressources peuvent vous aider à comprendre ce que vous observez, à garder le dialogue ouvert et à décider quand et comment chercher de l’aide supplémentaire."
+    },
+    "teachers": {
+      "navLabel": "Personnel enseignant",
+      "title": "Pour le personnel enseignant",
+      "intro": "Le personnel enseignant est souvent le premier à remarquer qu’un élève s’isole, reprend un discours extrême ou change de façon inquiétante. Ces ressources offrent des pistes sur la manière de réagir en classe, de soulever des préoccupations de façon appropriée et d’orienter un élève ou une famille vers du soutien."
+    },
+    "professionals": {
+      "navLabel": "Professionnels de la santé mentale",
+      "title": "Pour les professionnels de la santé mentale",
+      "intro": "Si la situation d’un client touche à la radicalisation ou à la polarisation sociale, vous n’avez pas à la gérer seul. Ces ressources soutiennent la consultation et les soins partagés grâce à notre collaboration avec le RAPS — une équipe multidisciplinaire couvrant le soutien social, la psychothérapie, la psychiatrie et les services médicaux."
+    }
+  },
+  "Audience": {
+    "backLink": "← Toutes les ressources",
+    "downloadsHeading": "Téléchargements",
+    "closing": "Vous avez une question à laquelle ces documents ne répondent pas ? Nous sommes là pour en discuter, en toute confidentialité et gratuitement.",
+    "contactButton": "Nous joindre"
+  },
+  "ResourceDownloads": {
+    "comingSoonTitle": "Les ressources arrivent bientôt.",
+    "comingSoonBody": "Nous préparons des guides téléchargeables pour cette page. D’ici là, communiquez avec nous et nous vous transmettrons directement ce dont vous avez besoin."
+  }
+}
