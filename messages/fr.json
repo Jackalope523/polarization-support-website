@@ -89,7 +89,7 @@
   },
   "Contact": {
     "metaTitle": "Nous joindre",
-    "metaDescription": "Joignez Polarisation Support par téléphone, texto ou courriel. Gratuit et confidentiel — nous répondons en 24 heures, du lundi au vendredi.",
+    "metaDescription": "Joignez Polarisation Support par téléphone, texto ou courriel. Gratuit et confidentiel, nous répondons en 24 heures, du lundi au vendredi.",
     "eyebrow": "Nous joindre",
     "title": "Tendre la main, c’est le premier pas.",
     "intro": "Tout ce que vous nous confiez est confidentiel, et notre soutien est gratuit. Nous répondons en 24 heures, du lundi au vendredi.",
@@ -97,7 +97,7 @@
       "callText": {
         "label": "Appeler ou texter",
         "value": "438-824-2718",
-        "note": "Laissez un message si nous ne pouvons pas répondre — nous vous rappellerons."
+        "note": "Laissez un message si nous ne pouvons pas répondre. Nous vous rappellerons."
       },
       "email": {
         "label": "Courriel",
@@ -139,7 +139,7 @@
     "professionals": {
       "navLabel": "Professionnels de la santé mentale",
       "title": "Pour les professionnels de la santé mentale",
-      "intro": "Si la situation d’un client touche à la radicalisation ou à la polarisation sociale, vous n’avez pas à la gérer seul. Ces ressources soutiennent la consultation et les soins partagés grâce à notre collaboration avec le RAPS — une équipe multidisciplinaire couvrant le soutien social, la psychothérapie, la psychiatrie et les services médicaux."
+      "intro": "Si la situation d’un client touche à la radicalisation ou à la polarisation sociale, vous n’avez pas à la gérer seul. Ces ressources soutiennent la consultation et les soins partagés grâce à notre collaboration avec le RAPS, une équipe multidisciplinaire couvrant le soutien social, la psychothérapie, la psychiatrie et les services médicaux."
     }
   },
   "Audience": {

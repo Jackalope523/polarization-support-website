@@ -89,7 +89,7 @@
   },
   "Contact": {
     "metaTitle": "Contact us",
-    "metaDescription": "Reach Polarisation Support by phone, text, or email. Free and confidential — we respond within 24 hours, Monday to Friday.",
+    "metaDescription": "Reach Polarisation Support by phone, text, or email. Free and confidential, we respond within 24 hours, Monday to Friday.",
     "eyebrow": "Contact us",
     "title": "Reaching out is the first step.",
     "intro": "Everything you tell us is confidential, and our support is free. We respond within 24 hours, Monday to Friday.",
@@ -97,7 +97,7 @@
       "callText": {
         "label": "Call or text",
         "value": "438-824-2718",
-        "note": "Leave a message if we can't pick up — we will get back to you."
+        "note": "Leave a message if we can't pick up we will get back to you."
       },
       "email": {
         "label": "Email",
@@ -139,7 +139,7 @@
     "professionals": {
       "navLabel": "Mental health professionals",
       "title": "For mental health professionals",
-      "intro": "If a client's situation touches on radicalization or social polarization, you don't have to navigate it alone. These resources support consultation and shared care through our collaboration with RAPS — a multi-disciplinary team spanning social support, psychotherapy, psychiatry, and medical services."
+      "intro": "If a client's situation touches on radicalization or social polarization, you don't have to navigate it alone. These resources support consultation and shared care through our collaboration with RAPS a multi-disciplinary team spanning social support, psychotherapy, psychiatry, and medical services."
     }
   },
   "Audience": {
