@@ -10,7 +10,7 @@
     "home": "Accueil",
     "about": "À propos",
     "resources": "Ressources",
-    "contact": "Nous joindre"
+    "contact": "Contactez-nous"
   },
   "Footer": {
     "brand": "Polarisation Support",
@@ -19,8 +19,8 @@
     "home": "Accueil",
     "about": "À propos",
     "resources": "Ressources",
-    "contactHeading": "Nous joindre",
-    "contact": "Nous joindre",
+    "contactHeading": "Contactez-nous",
+    "contact": "Contactez-nous",
     "replies": "Réponses en 24 h, du lundi au vendredi",
     "emergency": "Si une personne est en danger immédiat, composez le 911. En situation de crise, appelez ou textez le 9-8-8 en tout temps.",
     "copyright": "© {year} Polarisation Support · <privacy>Politique de confidentialité</privacy>",
@@ -35,31 +35,31 @@
   },
   "Home": {
     "eyebrow": "Soutien gratuit et confidentiel au Québec",
-    "heroTitle": "Vous vous inquiétez pour quelqu’un ? <highlight>Nous pouvons vous aider.</highlight>",
+    "heroTitle": "Êtes-vous inquiet pour quelqu'un? <highlight>Nous pouvons vous aider.</highlight>",
     "heroBody": "Quand une personne que vous aimez commence à sombrer, il est difficile de savoir quoi faire ou vers qui se tourner. Vous n’avez pas à porter ce fardeau seul.",
     "heroCtaPrimary": "Communiquez avec nous",
     "heroCtaSecondary": "Découvrez notre approche",
-    "concernsEyebrow": "Pourquoi nous consulter ?",
+    "concernsEyebrow": "Pourquoi nous contacter?",
     "concerns": [
-      "Avez-vous l’impression qu’une personne qui vous est chère s’enfonce dans une spirale qui pourrait la mettre en danger ?",
-      "Ses comportements et ses idées vous inquiètent-ils, voire vous effraient-ils ?",
-      "Vous sentez-vous quelque peu impuissant à soutenir cette personne ?",
-      "Fait-elle déjà face à des problèmes juridiques ?"
+      "Avez-vous l'impression qu'un de vos proches est en train de s'enfoncer dans une spirale qui pourrait le mettre en danger ?",
+      "Ses comportements et ses idées vous inquiètent-ils ou vous font-ils peur?",
+      "Trouvez-vous ça difficile de soutenir cette personne?",
+      "Cette personne fait-elle face à des problèmes juridiques?"
     ],
-    "concernsClosing": "Si vous avez répondu oui à l’une de ces questions, vous n’êtes pas seul. Nous pouvons vous aider.",
+    "concernsClosing": "Si vous avez répondu oui à l’une de ces questions, nous pouvons vous aider.",
     "helpEyebrow": "Comment pouvons-nous aider ?",
-    "helpPara1": "Nous pouvons vous offrir un soutien psychosocial gratuit et confidentiel au Québec. Nous pouvons aussi vous orienter vers des ressources pour vous soutenir, vous ou un proche.",
-    "helpPara2": "Si vous-même ou une personne qui vous préoccupe avez besoin d’accéder à de l’aide clinique ou à des travailleurs sociaux, nous pouvons vous mettre directement en lien avec nos partenaires pour un suivi plus approfondi.",
-    "helpPara3": "Pour nous joindre dès maintenant, <link>cliquez ici</link> afin d’obtenir un soutien gratuit et confidentiel.",
+    "helpPara1": "Nous pouvons vous fournir un soutien psychosocial gratuit et confidentiel au Québec. Nous pouvons également vous mettre en contact avec des ressources pour vous soutenir ou soutenir un être cher.",
+    "helpPara2": "Si vous ou une personne qui vous préoccupe avez besoin d'une aide clinique ou d'un travailleur social, nous pouvons vous mettre directement en contact avec nos partenaires pour un suivi plus approfondi.",
+    "helpPara3": "Pour nous contacter dès maintenant, <link>cliquez ici</link> afin d’obtenir un soutien gratuit et confidentiel.",
     "missionEyebrow": "Notre mission",
     "goals": [
       {
         "title": "Vous soutenir",
-        "body": "Nous accompagnons toute personne préoccupée par la radicalisation d’un proche, en lui offrant un espace confidentiel et sans jugement pour en parler."
+        "body": "Nous apportons un soutien à toute personne préoccupée par la radicalisation potentielle d'un individu."
       },
       {
         "title": "Protéger votre bien-être",
-        "body": "S’inquiéter pour quelqu’un pèse lourd. Nous aidons à atténuer les répercussions de cette situation sur votre propre santé mentale."
+        "body": "S’inquiéter pour quelqu’un pèse lourd. Nous aidons à atténuer les répercussions de cette situation sur votre bien-être."
       },
       {
         "title": "Vous outiller",
@@ -67,30 +67,30 @@
       }
     ],
     "whoEyebrow": "Qui sommes-nous ?",
-    "whoPara1": "Nous travaillons en collaboration avec le RAPS, une équipe multidisciplinaire offrant des services qui comprennent le soutien social, l’engagement communautaire, la psychothérapie, la psychiatrie et l’accès à des services médicaux.",
-    "whoPara2": "De concert avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, source de détresse pour bien des gens.",
+    "whoPara1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire qui offre des services de soutien social, d'engagement communautaire, de psychothérapie, de psychiatrie et d'accès aux services médicaux.",
+    "whoPara2": "En collaboration avec des partenaires régionaux, nous apportons un soutien aux personnes et aux familles du Québec qui sont touchées par le climat social actuel, qui est source de détresse pour de nombreuses personnes.",
     "ctaTitle": "Parlez à quelqu’un dès aujourd’hui.",
     "ctaBody": "Démarrez un clavardage en direct à l’aide de la bulle dans le coin inférieur de cette page, appelez ou textez-nous au <phone>438-824-2718</phone>, ou écrivez à <email>info@polarisationsupport.ca</email>. Nous répondons en 24 heures, du lundi au vendredi.",
-    "ctaButton": "Nous joindre"
+    "ctaButton": "Contactez-nous"
   },
   "About": {
     "metaTitle": "À propos",
     "metaDescription": "Polarisation Support offre un soutien spécialisé et confidentiel aux personnes et aux familles touchées par le climat social actuel et la polarisation croissante.",
     "eyebrow": "À propos",
     "title": "Un espace confidentiel pour des préoccupations difficiles.",
-    "whatHeading": "Ce que nous faisons",
-    "whatPara1": "Nous offrons un soutien spécialisé aux personnes et à leurs familles qui souffrent du climat social actuel et de la polarisation croissante.",
-    "whatPara2": "Nous offrons un espace confidentiel et sans jugement pour discuter de préoccupations liées à la polarisation sociale.",
+    "whatHeading": "Nos objectifs",
+    "whatPara1": "Nous apportons un soutien spécialisé aux personnes et à leurs familles qui souffrent du climat social actuel et de la polarisation croissante.",
+    "whatPara2": "Nous offrons un espace confidentiel et sans jugement pour discuter des préoccupations liées à la polarisation sociale.",
     "whoHeading": "Qui nous sommes",
-    "whoPara1": "Nous travaillons en collaboration avec le RAPS, une équipe multidisciplinaire offrant des services qui comprennent le soutien social, l’engagement communautaire, la psychothérapie, la psychiatrie et l’accès à des services médicaux.",
-    "whoPara2": "De concert avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, source de détresse pour bien des gens.",
+    "whoPara1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire qui offre des services de soutien social, d'engagement communautaire, de psychothérapie, de psychiatrie et d'accès aux services médicaux.",
+    "whoPara2": " En collaboration avec des partenaires régionaux, nous apportons un soutien aux personnes et aux familles du Québec qui sont touchées par le climat social actuel, qui est source de détresse pour de nombreuses personnes.",
     "closing": "Vous vous demandez si votre situation est « assez grave » pour nous consulter ? Elle l’est. Aucune préoccupation n’est trop petite.",
-    "contactButton": "Nous joindre"
+    "contactButton": "Contactez-nous"
   },
   "Contact": {
-    "metaTitle": "Nous joindre",
+    "metaTitle": "Contactez-nous",
     "metaDescription": "Joignez Polarisation Support par téléphone, texto ou courriel. Gratuit et confidentiel, nous répondons en 24 heures, du lundi au vendredi.",
-    "eyebrow": "Nous joindre",
+    "eyebrow": "Contactez-nous",
     "title": "Tendre la main, c’est le premier pas.",
     "intro": "Tout ce que vous nous confiez est confidentiel, et notre soutien est gratuit. Nous répondons en 24 heures, du lundi au vendredi.",
     "methods": {
@@ -117,13 +117,13 @@
   },
   "Resources": {
     "metaTitle": "Ressources",
-    "metaDescription": "Des ressources pour les parents, le personnel enseignant et les professionnels de la santé mentale préoccupés par la polarisation et la radicalisation au Québec.",
+    "metaDescription": "Des ressources pour les parents, les enseignants et les professionnels de la santé mentale préoccupés par la polarisation et la radicalisation au Québec.",
     "eyebrow": "Ressources",
     "title": "Du soutien pour les personnes les plus proches.",
-    "intro": "La polarisation touche rarement une seule personne. Que vous soyez un parent, un membre du personnel enseignant ou un professionnel, il existe une voie à suivre et des ressources pour vous aider à l’emprunter. Choisissez ce qui vous convient le mieux.",
+    "intro": "La polarisation touche rarement une seule personne. Que vous soyez un parent, un enseignant ou un professionnel, il existe une voie à suivre et des ressources pour vous aider à l’emprunter. Choisissez ce qui vous convient le mieux.",
     "viewResources": "Voir les ressources →",
     "closing": "Vous ne savez pas laquelle vous correspond ? Si vous êtes préoccupé par quelqu’un, communiquez avec nous et nous vous orienterons vers les bonnes personnes, y compris de l’aide clinique, des travailleurs sociaux et des ressources partenaires partout au Québec.",
-    "contactButton": "Nous joindre"
+    "contactButton": "Contactez-nous"
   },
   "Audiences": {
     "parents": {
@@ -132,9 +132,9 @@
       "intro": "Vous connaissez votre enfant mieux que quiconque, et c’est précisément pour cela que le voir se replier, durcir ses opinions ou être attiré par des espaces en ligne extrêmes fait si mal. Ces ressources peuvent vous aider à comprendre ce que vous observez, à garder le dialogue ouvert et à décider quand et comment chercher de l’aide supplémentaire."
     },
     "teachers": {
-      "navLabel": "Personnel enseignant",
-      "title": "Pour le personnel enseignant",
-      "intro": "Le personnel enseignant est souvent le premier à remarquer qu’un élève s’isole, reprend un discours extrême ou change de façon inquiétante. Ces ressources offrent des pistes sur la manière de réagir en classe, de soulever des préoccupations de façon appropriée et d’orienter un élève ou une famille vers du soutien."
+      "navLabel": "Enseignants",
+      "title": "Pour les enseignants",
+      "intro": "Les enseignants sont souvent les premiers à remarquer qu’un élève s’isole, reprend un discours extrême ou change de façon inquiétante. Ces ressources offrent des pistes sur la manière de réagir en classe, de soulever des préoccupations de façon appropriée et d’orienter un élève ou une famille vers du soutien."
     },
     "professionals": {
       "navLabel": "Professionnels de la santé mentale",
@@ -146,7 +146,7 @@
     "backLink": "← Toutes les ressources",
     "downloadsHeading": "Téléchargements",
     "closing": "Vous avez une question à laquelle ces documents ne répondent pas ? Nous sommes là pour en discuter, en toute confidentialité et gratuitement.",
-    "contactButton": "Nous joindre"
+    "contactButton": "Contactez-nous"
   },
   "ResourceDownloads": {
     "comingSoonTitle": "Les ressources arrivent bientôt.",
