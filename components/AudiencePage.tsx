@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { ResourceDownloads } from '@/components/ResourceDownloads';
-import { getAudience, type AudienceSlug } from '@/app/[locale]/resources/resources-data';
+import { getAudience, resolveDownloads, type AudienceSlug } from '@/app/[locale]/resources/resources-data';
 
 /**
  * Shared metadata for an audience resource page. Each static audience route
@@ -32,6 +32,7 @@ export async function AudiencePage({
   slug: AudienceSlug;
 }) {
   const audience = getAudience(slug)!;
+  const downloads = resolveDownloads(audience.downloads, locale);
 
   const t = await getTranslations({ locale, namespace: 'Audience' });
   const tAudiences = await getTranslations({ locale, namespace: 'Audiences' });
@@ -60,7 +61,7 @@ export async function AudiencePage({
             {t('downloadsHeading')}
           </h2>
           <div className="mt-6">
-            <ResourceDownloads downloads={audience.downloads} />
+            <ResourceDownloads downloads={downloads} />
           </div>
         </div>
       </section>

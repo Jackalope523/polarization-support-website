@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import type { ResourceDownload } from "@/app/[locale]/resources/resources-data";
+import type { ResolvedDownload } from "@/app/[locale]/resources/resources-data";
 
 function DownloadIcon() {
   return (
@@ -24,7 +24,7 @@ function DownloadIcon() {
 export function ResourceDownloads({
   downloads,
 }: {
-  downloads: ResourceDownload[];
+  downloads: ResolvedDownload[];
 }) {
   const t = useTranslations("ResourceDownloads");
 
