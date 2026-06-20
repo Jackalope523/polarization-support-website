@@ -55,62 +55,62 @@ export const audiences: Audience[] = [
   {
     slug: "parents",
     downloads: [
-      {
-        title: { en: "RAPS: Reassure and protect", fr: "RAPS: Rassurer et protéger" },
-        file: {
-          en: "/resources/en/RAPS-Reassure-and-protect.pdf",
-          fr: "/resources/fr/RAPS-Rassurer-et-proteger.pdf",
-        },
-        meta: { en: "PDF · 1.5 MB", fr: "PDF · 98 ko" },
-      },
-      {
+       {
         title: {
-          en: "Preventing online radicalization",
+          en: "Preventing Online Radicalization",
           fr: "Prévenir la radicalisation en ligne",
         },
         file: {
-          en: "/resources/en/PREV_pamphlet01_online-rad_test14-en.pdf",
-          fr: "/resources/fr/PREV_pamphlet01_online-rad_test15-fr.pdf",
+          en: "/resources/en/prev-radicalization-pamphlet.pdf",
+          fr: "/resources/fr/prev-radicalization-pamphlet.pdf",
         },
         meta: { en: "PDF · 450 KB", fr: "PDF · 448 ko" },
+      },
+      {
+        title: { en: "Best Practices in the Context of Social Tensions", fr: "Bonnes pratiques en contexte de tensions sociales" },
+        file: {
+          en: "/resources/en/raps-reassure-and-protect.pdf",
+          fr: "/resources/fr/raps-rassurer-et-proteger.pdf",
+        },
+        meta: { en: "PDF · 1.5 MB", fr: "PDF · 98 ko" },
       },
     ],
   },
   {
     slug: "teachers",
     downloads: [
+       {
+        title: {
+          en: "Intervening After a Violent Incident",
+          fr: "Intervenir après un incident violent",
+        },
+        file: {
+          en: "/resources/en/raps-intervening-after-a-violent-incident.pdf",
+          fr: "/resources/fr/raps-intervenir-apres-un-incident-violent.pdf",
+        },
+        meta: { en: "PDF · 841 KB", fr: "PDF · 636 ko" },
+      },
       {
         title: {
-          en: "Interventions against social polarization in the classroom",
+          en: "Interventions Against Social Polarization in the Classroom",
           fr: "Interventions en classe contre la polarisation sociale",
         },
         file: {
-          en: "/resources/en/Interventions+against+social+polarization+in+the+classroom.pdf",
-          fr: "/resources/fr/Interventions+en+classe+contre+la+polarisation+sociale_Exemples+chiosis+(Marie)+30.09.2024.pdf",
+          en: "/resources/en/raps-interventions-against-social-polarization-in-the-classroom.pdf",
+          fr: "/resources/fr/raps-interventions-en-classe-contre-la-polarisation-sociale.pdf",
         },
         meta: { en: "PDF · 781 KB", fr: "PDF · 392 ko" },
       },
       {
         title: {
-          en: "Polarization and DEI interventions in the school setting",
-          fr: "Polarisation et DEI : interventions en milieu scolaire",
+          en: "Polarization and DEI: Interventions in the School Setting",
+          fr: "Polarisation et DEI: interventions en milieu scolaire",
         },
         file: {
-          en: "/resources/en/Polarization+and+DEI+Interventions+in+the+School+Setting_1.8.2024.pdf",
-          fr: "/resources/fr/Polarisation+et+DEI+_+Interventions+en+milieu+scolaire_français+(30.09.2024).pdf",
+          en: "/resources/en/raps-polarization-and-dei.pdf",
+          fr: "/resources/fr/raps-polarisation-et-dei.pdf",
         },
         meta: { en: "PDF · 179 KB", fr: "PDF · 112 ko" },
-      },
-      {
-        title: {
-          en: "Intervening after a violent incident",
-          fr: "Intervenir après un incident violent",
-        },
-        file: {
-          en: "/resources/en/Guide_Intervening+after+a+violent+incident_Augsut+2024+(30.09.2024).pdf",
-          fr: "/resources/fr/Guide-intervenir+après+un+incident+violent_août+2024+(30.09.2024).pdf",
-        },
-        meta: { en: "PDF · 841 KB", fr: "PDF · 636 ko" },
       },
     ],
   },
@@ -119,25 +119,44 @@ export const audiences: Audience[] = [
     downloads: [
       {
         title: {
-          en: "PRECOBIAS: toolkit for social workers",
-          fr: "PRECOBIAS : boîte à outils pour les travailleurs sociaux",
+          en: "Handbook for Practitioners",
+          fr: "Manuel pour les praticiens",
         },
         file: {
-          en: "/resources/en/PRECOBIAS-Toolkit-for-social-workers-EN.pdf",
-          fr: "/resources/fr/PRECOBIAS-Toolkit-for-social-workers-FR.pdf",
+          en: "/resources/en/ran-h-and-sc-handbook-for-practitioners.pdf",
+          fr: "/resources/fr/ran-h-and-sc-handbook-for-practitioners.pdf",
+        },
+        meta: { en: "PDF · 1.0 MB", fr: "PDF · 531 ko" },
+      },
+      {
+        title: {
+          en: "Toolkit for Social Workers",
+          fr: "Boîte à outils pour les travailleurs sociaux",
+        },
+        file: {
+          en: "/resources/en/precobias-toolkit-for-social-workers.pdf",
+          fr: "/resources/fr/precobias-toolkit-for-social-workers.pdf",
         },
         meta: { en: "PDF · 1.5 MB", fr: "PDF · 1,5 Mo" },
       },
       {
         title: {
-          en: "Extremism, radicalisation and mental health: a handbook for practitioners",
-          fr: "Extrémisme, radicalisation et santé mentale : manuel pour les praticiens",
+          en: "Preventing Online Radicalization",
+          fr: "Prévenir la radicalisation en ligne",
         },
         file: {
-          en: "/resources/en/ran_h-sc_handbook-for-practitioners_extremism-radicalisation-mental-health_112019_en.pdf",
-          fr: "/resources/fr/ran_h-sc_handbook-for-practitioners_extremism-radicalisation-mental-health_112019_fr.pdf",
+          en: "/resources/en/prev-radicalization-pamphlet.pdf",
+          fr: "/resources/fr/prev-radicalization-pamphlet.pdf",
         },
-        meta: { en: "PDF · 1.0 MB", fr: "PDF · 531 ko" },
+        meta: { en: "PDF · 450 KB", fr: "PDF · 448 ko" },
+      },
+      {
+        title: { en: "Best Practices in the Context of Social Tensions", fr: "Bonnes pratiques en contexte de tensions sociales" },
+        file: {
+          en: "/resources/en/raps-reassure-and-protect.pdf",
+          fr: "/resources/fr/raps-rassurer-et-proteger.pdf",
+        },
+        meta: { en: "PDF · 1.5 MB", fr: "PDF · 98 ko" },
       },
     ],
   },

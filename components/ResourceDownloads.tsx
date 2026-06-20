@@ -48,9 +48,9 @@ export function ResourceDownloads({
           <a
             href={download.file}
             download
-            className="group flex items-center gap-5 py-5 transition-colors hover:bg-brand-soft/50"
+            className="group flex items-center gap-5 py-5 transition-colors hover:bg-brand-soft/50 max-md:active:bg-brand-soft/50"
           >
-            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-soft text-brand transition-colors group-hover:bg-brand group-hover:text-white">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-soft text-brand transition-colors group-hover:bg-brand group-hover:text-white max-md:group-active:bg-brand max-md:group-active:text-white">
               <DownloadIcon />
             </span>
             <span className="min-w-0 flex-1">

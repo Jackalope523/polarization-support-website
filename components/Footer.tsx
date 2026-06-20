@@ -23,28 +23,28 @@ export async function Footer() {
               </p>
               <ul className="mt-4 space-y-3 text-sm">
                 <li>
-                  <Link href="/" className="text-muted hover:text-foreground">
+                  <Link href="/" className="text-muted hover:text-foreground max-md:active:text-foreground">
                     {t('home')}
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/about"
-                    className="text-muted hover:text-foreground">
+                    className="text-muted hover:text-foreground max-md:active:text-foreground">
                     {t('about')}
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/resources"
-                    className="text-muted hover:text-foreground">
+                    className="text-muted hover:text-foreground max-md:active:text-foreground">
                     {t('resources')}
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/contact"
-                    className="text-muted hover:text-foreground">
+                    className="text-muted hover:text-foreground max-md:active:text-foreground">
                     {t('contact')}
                   </Link>
                 </li>
@@ -58,14 +58,14 @@ export async function Footer() {
                 <li>
                   <a
                     href="tel:+14388242718"
-                    className="text-muted hover:text-foreground">
+                    className="text-muted hover:text-foreground max-md:active:text-foreground">
                     438-824-2718
                   </a>
                 </li>
                 <li>
                   <a
                     href="mailto:info@polarisationsupport.ca"
-                    className="text-muted hover:text-foreground">
+                    className="text-muted hover:text-foreground max-md:active:text-foreground">
                     info@polarisationsupport.ca
                   </a>
                 </li>
@@ -84,7 +84,7 @@ export async function Footer() {
                   href={t('privacyHref')}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-4 hover:text-foreground">
+                  className="underline underline-offset-4 hover:text-foreground max-md:active:text-foreground">
                   {chunks}
                 </a>
               ),

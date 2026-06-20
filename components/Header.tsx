@@ -43,7 +43,7 @@ export function Header() {
                 className={
                   pathname === link.href
                     ? 'text-sm text-foreground'
-                    : 'text-sm text-muted transition-colors hover:text-foreground'
+                    : 'text-sm text-muted transition-colors hover:text-foreground max-md:active:text-foreground'
                 }>
                 {t(link.key)}
               </Link>
@@ -52,7 +52,7 @@ export function Header() {
           <Link
             href={pathname}
             locale={otherLocale}
-            className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent-dark">
+            className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent-dark max-md:active:bg-accent-dark">
             {otherLabel}
           </Link>
         </nav>

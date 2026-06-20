@@ -19,7 +19,7 @@ export default function CookieBanner() {
             href="/privacy-policy.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-foreground underline underline-offset-4 transition-colors hover:text-brand">
+            className="text-foreground underline underline-offset-4 transition-colors hover:text-brand max-md:active:text-brand">
             {t('learnMore')}
           </a>
         </p>
@@ -27,13 +27,13 @@ export default function CookieBanner() {
           <button
             type="button"
             onClick={() => declineConsentCookie()}
-            className="inline-flex h-10 items-center justify-center rounded-full border border-line-strong px-5 text-sm font-medium text-foreground transition-colors hover:bg-brand-soft">
+            className="inline-flex h-10 items-center justify-center rounded-full border border-line-strong px-5 text-sm font-medium text-foreground transition-colors hover:bg-brand-soft max-md:active:bg-brand-soft">
             {t('reject')}
           </button>
           <button
             type="button"
             onClick={() => setConsentCookie()}
-            className="inline-flex h-10 items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-white transition-colors hover:bg-accent-dark">
+            className="inline-flex h-10 items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-white transition-colors hover:bg-accent-dark max-md:active:bg-accent-dark">
             {t('accept')}
           </button>
         </div>

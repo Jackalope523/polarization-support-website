@@ -53,7 +53,7 @@ export default function ContactPage() {
                 {method.href ? (
                   <a
                     href={method.href}
-                    className="mt-3 inline-block font-serif text-3xl tracking-tight text-foreground underline-offset-4 hover:underline">
+                    className="mt-3 inline-block font-serif text-3xl tracking-tight text-foreground underline-offset-4 hover:underline max-md:active:underline">
                     {t(`methods.${method.key}.value`)}
                   </a>
                 ) : (

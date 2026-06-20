@@ -26,12 +26,12 @@ export default function Home() {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
             <Link
               href="/contact"
-              className="inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark">
+              className="inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark max-md:active:bg-accent-dark">
               {t('heroCtaPrimary')}
             </Link>
             <Link
               href="/about"
-              className="inline-flex h-12 items-center justify-center px-2 text-base text-muted underline underline-offset-4 transition-colors hover:text-foreground">
+              className="inline-flex h-12 items-center justify-center px-2 text-base text-muted underline underline-offset-4 transition-colors hover:text-foreground max-md:active:text-foreground">
               {t('heroCtaSecondary')}
             </Link>
           </div>
@@ -152,7 +152,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark">
+            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark max-md:active:bg-accent-dark">
             {t('ctaButton')}
           </Link>
         </div>

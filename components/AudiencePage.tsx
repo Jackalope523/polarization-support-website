@@ -43,7 +43,7 @@ export async function AudiencePage({
         <div className="mx-auto w-full max-w-[680px] px-6 py-20 sm:py-24">
           <Link
             href="/resources"
-            className="text-sm text-muted underline underline-offset-4 hover:text-foreground">
+            className="text-sm text-muted underline underline-offset-4 hover:text-foreground max-md:active:text-foreground">
             {t('backLink')}
           </Link>
           <h1 className="mt-6 font-serif text-5xl leading-[1.1] tracking-tight">
@@ -73,7 +73,7 @@ export async function AudiencePage({
           </p>
           <Link
             href="/contact"
-            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark">
+            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark max-md:active:bg-accent-dark">
             {t('contactButton')}
           </Link>
         </div>

@@ -67,7 +67,7 @@ export default function AboutPage() {
           </p>
           <Link
             href="/contact"
-            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark">
+            className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-accent px-7 text-base font-medium text-white transition-colors hover:bg-accent-dark max-md:active:bg-accent-dark">
             {t('contactButton')}
           </Link>
         </div>
