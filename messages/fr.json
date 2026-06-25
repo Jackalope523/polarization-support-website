@@ -2,7 +2,9 @@
   "Metadata": {
     "defaultTitle": "Polarisation Support — Nous pouvons vous aider",
     "titleTemplate": "%s — Polarisation Support",
-    "description": "Soutien psychosocial gratuit et confidentiel au Québec pour toute personne inquiète de voir un proche glisser vers des idéologies à risque."
+    "description": "Soutien psychosocial gratuit et confidentiel au Québec pour toute personne inquiète de voir un proche glisser vers des idéologies à risque.",
+    "ogTitle": "Inquiet pour un proche? Nous pouvons vous aider.",
+    "siteName": "Polarisation Support"
   },
   "Header": {
     "brand": "Polarisation Support",

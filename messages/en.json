@@ -2,7 +2,9 @@
   "Metadata": {
     "defaultTitle": "Polarisation Support — We can help",
     "titleTemplate": "%s — Polarisation Support",
-    "description": "Free and confidential psychosocial support in Québec for anyone concerned about a loved one drifting toward risky ideologies."
+    "description": "Free and confidential psychosocial support in Québec for anyone concerned about a loved one drifting toward risky ideologies.",
+    "ogTitle": "Concerned about a loved one? We can help.",
+    "siteName": "Polarisation Support"
   },
   "Header": {
     "brand": "Polarisation Support",

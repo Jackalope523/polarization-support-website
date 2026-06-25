@@ -6,7 +6,7 @@ import { Footer } from '@/components/Footer';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import CookieBanner from '@/components/CookieBanner';
-import { cookies } from 'next/headers';
+import { cookies, headers } from 'next/headers';
 import { GoogleTagManager } from '@next/third-parties/google';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
@@ -29,12 +29,43 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
+
+  const requestHeaders = await headers();
+  const host = requestHeaders.get('host');
+  const siteUrl = host ? `https://${host}` : 'https://polarisationsupport.ca';
+
+  const ogTitle = t('ogTitle');
+  const description = t('description');
+
   return {
+    metadataBase: new URL(siteUrl),
     title: {
       default: t('defaultTitle'),
       template: t('titleTemplate'),
     },
-    description: t('description'),
+    description,
+    openGraph: {
+      type: 'website',
+      url: '/',
+      siteName: t('siteName'),
+      title: ogTitle,
+      description,
+      locale: locale === 'fr' ? 'fr_CA' : 'en_CA',
+      images: [
+        {
+          url: '/opengraph-image.png',
+          width: 1200,
+          height: 630,
+          alt: ogTitle,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: ogTitle,
+      description,
+      images: ['/twitter-image.png'],
+    },
   };
 }
 
