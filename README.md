@@ -4,7 +4,7 @@
 
 Built with the Next.js App Router, fully internationalized (English / French), server-rendered, and SEO-optimized.
 
-🔗 **Live:** [polarisationsupport.ca](https://polarisationsupport.ca) · Delivered in collaboration with RAPS
+🔗 **Live:** [polarisationsupport.ca](https://polarization-support-website.vercel.app/) · Delivered in collaboration with RAPS
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
