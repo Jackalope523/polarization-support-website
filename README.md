@@ -7,8 +7,8 @@ native-feeling URLs and fully-mirrored content in each.
 
 | Locale | URL |
 |--------|-----|
-| **French** (default) | [polarisationsupport.ca/fr](https://polarisationsupport.ca/fr) |
-| **English** | [polarisationsupport.ca/en](https://polarisationsupport.ca/en) |
+| **French** (default) | [polarisationsupport.ca/fr]([https://polarisationsupport.ca/fr](https://polarization-support-website.vercel.app/fr)) |
+| **English** | [polarisationsupport.ca/en]([https://polarisationsupport.ca/en](https://polarization-support-website.vercel.app/en) |
 
 Built in collaboration with RAPS, a multi-disciplinary team spanning social support,
 psychotherapy, psychiatry, and medical services.
