@@ -1,84 +1,93 @@
-# Polarisation Support
+# Polarisation Support — Bilingual Psychosocial Support Website
 
-**A bilingual, accessibility-minded support website for a Québec psychosocial service** — helping people who are worried about a loved one drifting toward radicalization find free, confidential help.
+A production website for a Québec-based support service offering free, confidential,
+non-judgmental help to anyone worried about a loved one drifting toward radicalization or
+risky ideologies. One codebase serves the service in both of Québec's languages, with
+native-feeling URLs and fully-mirrored content in each.
 
-Built with the Next.js App Router, fully internationalized (English / French), server-rendered, and SEO-optimized.
+| Locale | URL |
+|--------|-----|
+| **French** (default) | [polarisationsupport.ca/fr](https://polarisationsupport.ca/fr) |
+| **English** | [polarisationsupport.ca/en](https://polarisationsupport.ca/en) |
 
-🔗 **Live:** [polarisationsupport.ca](https://polarization-support-website.vercel.app/) · Delivered in collaboration with RAPS
-
-![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
-![next-intl](https://img.shields.io/badge/next--intl-i18n-1f6feb)
+Built in collaboration with RAPS, a multi-disciplinary team spanning social support,
+psychotherapy, psychiatry, and medical services.
 
 ---
 
-## About the project
+## Why this project is worth a look
 
-This is a production website for a public-interest service in Québec. Its audience is people in a difficult moment such as parents, teachers, and clinicians concerned about someone close to them. The priorities were **clarity, trust, calm design, and access in both official languages.**
-
-Because much of the audience is French-first, the site is **French by default** and fully mirrored in English, with every route, resource, and PDF served in the visitor's language.
-
-## What it demonstrates
-
-| Area | Highlights |
-|------|-----------|
-| **Internationalization** | End-to-end EN/FR with locale-prefixed routing, middleware-based locale negotiation, and translated metadata — content and code cleanly separated |
-| **Modern Next.js** | App Router, React Server Components, Server Actions, streaming layouts, per-locale dynamic metadata |
-| **SEO & sharing** | Per-locale Open Graph + Twitter cards, dynamic `metadataBase`, semantic markup, title templating |
-| **Privacy & compliance** | Cookie-consent gate with an `httpOnly` server-set cookie; analytics and third-party scripts load *only* after consent |
-| **Content architecture** | Structural data (TypeScript) separated from copy (translation catalogs); localized PDF resources resolved per audience and language |
-| **Design & UX** | Editorial typographic system (Geist + Source Serif), fully responsive, mobile-tuned interactions, live-chat support |
+This is a live public service with real constraints: a vulnerable audience reaching out at a
+hard moment, two official languages that must stay in perfect sync, privacy/consent law, SEO
+and social-sharing requirements, and the need to be reachable through whatever channel a
+person in distress is comfortable with.
 
 ## Tech stack
 
-- **Framework:** Next.js 16 (App Router) · React 19
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS 4
-- **i18n:** `next-intl` (locale routing + middleware, `en` / `fr`, French default)
-- **State/data:** React Server Components + Server Actions
-- **Integrations:** Google Tag Manager (consent-gated), Tawk.to live chat
-- **Tooling:** ESLint (`eslint-config-next`), Google Fonts optimization via `next/font`
+- **Next.js 16** — App Router, React Server Components, Server Actions
+- **React 19** · **TypeScript** (strict)
+- **Tailwind CSS v4** — design system built from theme tokens (`@theme` + CSS custom properties)
+- **next-intl v4** — internationalization + locale-aware routing and middleware
+- **Vercel** — hosting & edge middleware
+- Integrations: **Tawk.to** (real-time live chat), **Google Tag Manager** (consent-gated)
 
 ## Engineering highlights
 
-**Bilingual by construction, not bolted on.**
-Routing lives under `app/[locale]/`, with `next-intl` middleware negotiating the locale and every page pulling copy from per-locale message catalogs. Even resource downloads resolve to the right language so a French visitor gets the French PDF with accented filenames URL-encoded so they resolve correctly.
+**🌐 Fully bilingual, French-first**
+The entire site is mirrored in English and French with locale-prefixed routing (`/fr`, `/en`),
+French as the default for a Québec audience, and a language toggle that keeps you on the same
+page when you switch. Locale is negotiated in `next-intl` middleware; adding a language is a
+config change, not a rewrite.
 
-**Consent-first analytics.**
-The cookie banner writes an `httpOnly`, `secure` consent cookie through a Server Action and revalidates the layout. Google Tag Manager is rendered **only** when consent has been granted — privacy is the default state, not an afterthought.
+**📝 Strict content/presentation separation**
+Every user-facing string lives in structurally-mirrored `messages/en.json` / `messages/fr.json`
+catalogs. Components are pure presentation that read from translation namespaces, so copywriters
+and translators can work without touching JSX — and the two languages can't drift apart
+structurally.
 
-**Clean separation of content and structure.**
-Audience data (which resources belong to *parents* vs. *teachers* vs. *professionals*) is modeled in typed TypeScript, while all user-facing text lives in translation files. Adding a new downloadable guide is a small, well-documented data change.
+**🧩 Typed, localized resource library**
+Downloadable PDF guides are segmented by audience (parents / teachers / mental-health
+professionals) and served per-locale, so a French visitor gets the French document. The catalog
+is a single typed data file — adding a guide is a small, documented data change — and empty
+audiences render a graceful "coming soon" state instead of a broken page. Accented filenames are
+URL-encoded so they resolve correctly.
 
-**Server-first rendering.**
-Pages are React Server Components with metadata generated per request and per locale, keeping the client bundle lean and the content indexable.
+**🔒 Privacy-first analytics & consent**
+Google Tag Manager is *never injected* until the visitor explicitly accepts. Consent — both
+**accept and decline** — is persisted in a secure, `httpOnly`, `SameSite` cookie set through a
+**Server Action**, and the privacy policy is surfaced both in the consent banner and the footer.
 
-## Project structure
+**🔍 SEO & social sharing**
+Per-locale `generateMetadata` produces localized titles, descriptions, and Open Graph / Twitter
+cards (`fr_CA` / `en_CA`) with a 1200×630 preview image, so links shared in either language
+preview correctly. `metadataBase` is derived from the request host.
 
-```
-app/[locale]/          Locale-scoped routes (home, about, contact, resources)
-  resources/           Audience pages + typed resource data
-components/             Header, Footer, CookieBanner, resource downloads
-i18n/                  Routing config + request/navigation helpers
-lib/actions/           Server Actions (cookie consent)
-messages/              en.json / fr.json translation catalogs
-public/resources/      Localized PDF guides (en/ and fr/)
-proxy.ts               next-intl locale middleware
-```
+**♿ Accessibility & polish**
+Semantic landmarks throughout, an ARIA-labelled consent dialog (`role="dialog"`, `aria-live`),
+`aria-hidden` on decorative icons, descriptive image alt text, native `download` attributes on
+resource links, and a fully responsive layout with dedicated touch/tap-state feedback on mobile.
 
-## Getting started
+**📞 Multi-channel contact**
+First-class `tel:` (call or text) and `mailto:` entry points, an embedded live-chat widget, and a
+clearly surfaced emergency path (911 / the 9-8-8 crisis line) — so a visitor can reach out through
+whichever channel they're comfortable with.
+
+## What this demonstrates
+
+- Shipping and maintaining a **real, user-facing product** with a sensitive audience.
+- **Modern React/Next.js** (Server Components, Server Actions, App Router) used deliberately.
+- **Internationalization at production scale** — routing, middleware, metadata, and content all localized.
+- Sound judgment on **privacy, consent, SEO, and accessibility** — the parts that don't show up
+  in a screenshot but matter in production.
+- A clean, **content-driven architecture** that non-engineers can safely contribute to.
+
+## Running locally
 
 ```bash
 npm install
-npm run dev
-```
+npm run dev        # http://localhost:3000  (redirects to the default locale, /fr)
 
-Open [http://localhost:3000](http://localhost:3000). The app redirects to the default locale (`/fr`); switch to `/en` for English.
-
-```bash
-npm run build   # production build
-npm run start   # serve the production build
-npm run lint    # eslint
+npm run build      # production build
+npm run start      # serve the production build
+npm run lint       # eslint
 ```
