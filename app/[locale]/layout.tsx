@@ -10,7 +10,6 @@ import { cookies, headers } from 'next/headers';
 import { GoogleTagManager } from '@next/third-parties/google';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import Script from 'next/script';
 import Chat from '@/components/Chat';
 
 const geistSans = Geist({
@@ -91,13 +90,6 @@ export default async function RootLayout({
       lang={locale}
       className={`${geistSans.variable} ${sourceSerif.variable} h-full antialiased`}>
       {accepted ? <GoogleTagManager gtmId="#TODO" /> : null}
-
-      <Script
-        id="tawk-to"
-        strategy="lazyOnload"
-        src="https://embed.tawk.to/670961204304e3196ad05eb1/1i9ua6q5g"
-        crossOrigin="anonymous"
-      />
 
       <body className="flex min-h-full flex-col font-sans">
         <NextIntlClientProvider>
