@@ -11,6 +11,7 @@ import { GoogleTagManager } from '@next/third-parties/google';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Script from 'next/script';
+import Chat from '@/components/Chat';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -102,8 +103,9 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header />
           <main className="flex-1">{children}</main>
-          {!accepted ? <CookieBanner /> : null}
           <Footer />
+          <Chat />
+          {!accepted ? <CookieBanner /> : null}
         </NextIntlClientProvider>
       </body>
     </html>
