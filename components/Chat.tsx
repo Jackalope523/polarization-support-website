@@ -10,6 +10,7 @@ export default function CookieBanner() {
 
   return   <LiveChatWidget
       license="19845957"
+      customerName='Polarization Support'
       onNewEvent={handleNewEvent}
     />;
 }
