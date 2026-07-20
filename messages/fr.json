@@ -74,7 +74,7 @@
     "whoPara1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire qui offre des services de soutien social, d'engagement communautaire, de psychothérapie, de psychiatrie et d'accès aux services médicaux.",
     "whoPara2": "En collaboration avec des partenaires régionaux, nous apportons un soutien aux personnes et aux familles du Québec qui sont touchées par le climat social actuel, qui est source de détresse pour de nombreuses personnes.",
     "ctaTitle": "Parlez à quelqu’un dès aujourd’hui.",
-    "ctaBody": "Démarrez un clavardage en direct à l’aide de la bulle dans le coin inférieur de cette page, appelez ou textez-nous au <phone>438-824-2718</phone>, ou écrivez à <email>info@polarisationsupport.ca</email>. Nous répondons en 24 heures, du lundi au vendredi.",
+    "ctaBody": "Démarrez un clavardage en direct à l’aide de la bulle dans le coin inférieur de cette page ou écrivez à <email>info@polarisationsupport.ca</email>. Nous répondons en 24 heures, du lundi au vendredi.",
     "ctaButton": "Contactez-nous"
   },
   "About": {
@@ -98,11 +98,6 @@
     "title": "Tendre la main, c’est le premier pas.",
     "intro": "Tout ce que vous nous confiez est confidentiel, et notre soutien est gratuit. Nous répondons en 24 heures, du lundi au vendredi.",
     "methods": {
-      "callText": {
-        "label": "Appeler ou texter",
-        "value": "438-824-2718",
-        "note": "Laissez un message si nous ne pouvons pas répondre. Nous vous rappellerons."
-      },
       "email": {
         "label": "Courriel",
         "value": "info@polarisationsupport.ca",

@@ -74,7 +74,7 @@
     "whoPara1": "We work in collaboration with RAPS, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
     "whoPara2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
     "ctaTitle": "Talk to someone today.",
-    "ctaBody": "Start a live chat using the bubble in the bottom corner of this page, call or text us at <phone>438-824-2718</phone>, or write to <email>info@polarisationsupport.ca</email>. We respond within 24 hours, Monday to Friday.",
+    "ctaBody": "Start a live chat using the bubble in the bottom corner of this page or write to <email>info@polarisationsupport.ca</email>. We respond within 24 hours, Monday to Friday.",
     "ctaButton": "Contact us"
   },
   "About": {
@@ -98,11 +98,6 @@
     "title": "Reaching out is the first step.",
     "intro": "Everything you tell us is confidential, and our support is free. We respond within 24 hours, Monday to Friday.",
     "methods": {
-      "callText": {
-        "label": "Call or text",
-        "value": "438-824-2718",
-        "note": "Leave a message if we can't pick up we will get back to you."
-      },
       "email": {
         "label": "Email",
         "value": "info@polarisationsupport.ca",
