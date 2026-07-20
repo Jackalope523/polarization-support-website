@@ -1,25 +1,25 @@
-import type { Metadata } from 'next';
-import { Geist, Source_Serif_4 } from 'next/font/google';
-import './globals.css';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
-import CookieBanner from '@/components/CookieBanner';
-import { cookies, headers } from 'next/headers';
-import { GoogleTagManager } from '@next/third-parties/google';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-import Chat from '@/components/Chat';
+import type { Metadata } from "next";
+import { Geist, Source_Serif_4 } from "next/font/google";
+import "./globals.css";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import CookieBanner from "@/components/CookieBanner";
+import { cookies, headers } from "next/headers";
+import { GoogleTagManager } from "@next/third-parties/google";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import Chat from "@/components/Chat";
 
 const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
 });
 
 const sourceSerif = Source_Serif_4({
-  variable: '--font-source-serif',
-  subsets: ['latin'],
+  variable: "--font-source-serif",
+  subsets: ["latin"],
 });
 
 export async function generateMetadata({
@@ -28,32 +28,32 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const t = await getTranslations({ locale, namespace: "Metadata" });
 
   const requestHeaders = await headers();
-  const host = requestHeaders.get('host');
-  const siteUrl = host ? `https://${host}` : 'https://polarisationsupport.ca';
+  const host = requestHeaders.get("host");
+  const siteUrl = host ? `https://${host}` : "https://polarisationsupport.ca";
 
-  const ogTitle = t('ogTitle');
-  const description = t('description');
+  const ogTitle = t("ogTitle");
+  const description = t("description");
 
   return {
     metadataBase: new URL(siteUrl),
     title: {
-      default: t('defaultTitle'),
-      template: t('titleTemplate'),
+      default: t("defaultTitle"),
+      template: t("titleTemplate"),
     },
     description,
     openGraph: {
-      type: 'website',
-      url: '/',
-      siteName: t('siteName'),
+      type: "website",
+      url: "/",
+      siteName: t("siteName"),
       title: ogTitle,
       description,
-      locale: locale === 'fr' ? 'fr_CA' : 'en_CA',
+      locale: locale === "fr" ? "fr_CA" : "en_CA",
       images: [
         {
-          url: '/opengraph-image.png',
+          url: "/opengraph-image.png",
           width: 1200,
           height: 630,
           alt: ogTitle,
@@ -61,10 +61,10 @@ export async function generateMetadata({
       ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: ogTitle,
       description,
-      images: ['/twitter-image.png'],
+      images: ["/twitter-image.png"],
     },
   };
 }
@@ -82,14 +82,15 @@ export default async function RootLayout({
     notFound();
   }
 
-  const consent = (await cookies()).get('cookie-consent')?.value;
-  const accepted = consent === 'accepted';
+  const consent = (await cookies()).get("cookie-consent")?.value;
+  const accepted = consent === "accepted";
 
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${sourceSerif.variable} h-full antialiased`}>
-      {accepted ? <GoogleTagManager gtmId="#TODO" /> : null}
+      className={`${geistSans.variable} ${sourceSerif.variable} h-full antialiased`}
+    >
+      {accepted ? <GoogleTagManager gtmId="GTM-MK325CNV" /> : null}
 
       <body className="flex min-h-full flex-col font-sans">
         <NextIntlClientProvider>
@@ -103,4 +104,3 @@ export default async function RootLayout({
     </html>
   );
 }
-
