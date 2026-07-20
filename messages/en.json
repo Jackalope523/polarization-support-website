@@ -12,7 +12,9 @@
     "home": "Home",
     "about": "About us",
     "resources": "Resources",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "Footer": {
     "brand": "Polarisation Support",
