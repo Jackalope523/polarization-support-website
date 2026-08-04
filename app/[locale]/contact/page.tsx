@@ -16,6 +16,7 @@ export async function generateMetadata({
 }
 
 const methods = [
+  { key: "callText", href: "tel:+14388242718" },
   { key: "email", href: "mailto:info@polarisationsupport.ca" },
   { key: "liveChat", href: null },
 ] as const;

@@ -61,6 +61,14 @@ export async function Footer() {
               <ul className="mt-4 space-y-3 text-sm">
                 <li>
                   <a
+                    href="tel:+14388242718"
+                    className="text-muted hover:text-foreground max-md:active:text-foreground"
+                  >
+                    438-824-2718
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="mailto:info@polarisationsupport.ca"
                     className="text-muted hover:text-foreground max-md:active:text-foreground"
                   >
