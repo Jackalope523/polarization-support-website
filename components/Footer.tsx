@@ -80,8 +80,8 @@ export async function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-line pt-6 text-[13px] text-muted">
-          <p>{t("emergency")}</p>
+        <div className="mt-12 border-t border-line pt-6 text-[16px] text-muted">
+          <p className="text-[16px]">{t("emergency")}</p>
           <p className="mt-2">
             {t.rich("copyright", {
               year: new Date().getFullYear().toString(),
