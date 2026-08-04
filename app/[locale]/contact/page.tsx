@@ -35,7 +35,18 @@ export default function ContactPage() {
             {t("title")}
           </h1>
           <p className="mt-8 font-serif text-lg leading-8 text-muted">
-            {t("intro")}
+            {t.rich("intro", {
+              privacy: (chunks) => (
+                <a
+                  href={t("privacyHref")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:text-foreground max-md:active:text-foreground"
+                >
+                  {chunks}
+                </a>
+              ),
+            })}
           </p>
         </div>
       </section>

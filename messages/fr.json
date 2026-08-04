@@ -26,7 +26,7 @@
     "contactHeading": "Contactez-nous",
     "contact": "Contactez-nous",
     "replies": "Réponses en 24 h, du lundi au vendredi",
-    "emergency": "Si une personne est en danger immédiat, composez le 911. En situation de crise, appelez ou textez le 9-8-8 en tout temps.",
+    "emergency": "Si une personne est en danger immédiat, composez le 911. En crise en ce moment? Appelez ou textez le 9-8-8 pour obtenir de l’aide immédiate.",
     "copyright": "© {year} Polarisation Support · <privacy>Politique de confidentialité</privacy>",
     "privacyHref": "/privacy-policy-french.pdf"
   },
@@ -40,7 +40,7 @@
   "Home": {
     "eyebrow": "Soutien gratuit et confidentiel au Québec",
     "heroTitle": "Êtes-vous inquiet pour quelqu'un? <highlight>Nous pouvons vous aider.</highlight>",
-    "heroBody": "Quand une personne que vous aimez commence à sombrer, il est difficile de savoir quoi faire ou vers qui se tourner. Vous n’avez pas à porter ce fardeau seul.",
+    "heroBody": "Quand une personne proche de vous commence à sombrer, il est difficile de savoir quoi faire ou vers qui se tourner. Vous n’avez pas à porter ce fardeau seul.",
     "heroCtaPrimary": "Communiquez avec nous",
     "heroCtaSecondary": "Découvrez notre approche",
     "concernsEyebrow": "Pourquoi nous contacter?",
@@ -59,7 +59,7 @@
     "goals": [
       {
         "title": "Vous soutenir",
-        "body": "Nous apportons un soutien à toute personne préoccupée par la radicalisation potentielle d'un individu."
+        "body": "Nous apportons un soutien à toute personne préoccupée de voir une personne proche d'elle s'engager dans des idéologies violentes, en offrant un espace confidentiel et sans jugement pour en discuter."
       },
       {
         "title": "Protéger votre bien-être",
@@ -84,19 +84,20 @@
     "title": "Un espace confidentiel pour des préoccupations difficiles.",
     "whatHeading": "Nos objectifs",
     "whatPara1": "Nous apportons un soutien spécialisé aux personnes et à leurs familles qui souffrent du climat social actuel et de la polarisation croissante.",
-    "whatPara2": "Nous offrons un espace confidentiel et sans jugement pour discuter des préoccupations liées à la polarisation sociale.",
+    "whatPara2": "Nous offrons un espace confidentiel et sans jugement pour discuter de ces préoccupations.",
     "whoHeading": "Qui nous sommes",
     "whoPara1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire qui offre des services de soutien social, d'engagement communautaire, de psychothérapie, de psychiatrie et d'accès aux services médicaux.",
     "whoPara2": " En collaboration avec des partenaires régionaux, nous apportons un soutien aux personnes et aux familles du Québec qui sont touchées par le climat social actuel, qui est source de détresse pour de nombreuses personnes.",
-    "closing": "Vous vous demandez si votre situation est « assez grave » pour nous consulter ? Elle l’est. Aucune préoccupation n’est trop petite.",
+    "closing": "Vous vous demandez si votre situation est « assez grave » pour nous consulter ? Parlons-en ensemble.",
     "contactButton": "Contactez-nous"
   },
   "Contact": {
     "metaTitle": "Contactez-nous",
     "metaDescription": "Joignez Polarisation Support par téléphone, texto ou courriel. Gratuit et confidentiel, nous répondons en 24 heures, du lundi au vendredi.",
+    "privacyHref": "/privacy-policy-french.pdf",
     "eyebrow": "Contactez-nous",
     "title": "Tendre la main, c’est le premier pas.",
-    "intro": "Tout ce que vous nous confiez est confidentiel, et notre soutien est gratuit. Nous répondons en 24 heures, du lundi au vendredi.",
+    "intro": "Nos échanges sont confidentiels, et notre soutien est gratuit. Nous répondons en 24 heures, du lundi au vendredi. Veuillez consulter notre politique de confidentialité <privacy>ici</privacy> pour en savoir plus sur les limites de la confidentialité.",
     "methods": {
       "callText": {
         "label": "Appeler ou texter",

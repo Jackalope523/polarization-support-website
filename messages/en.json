@@ -94,9 +94,10 @@
   "Contact": {
     "metaTitle": "Contact us",
     "metaDescription": "Reach Polarisation Support by phone, text, or email. Free and confidential, we respond within 24 hours, Monday to Friday.",
+    "privacyHref": "/privacy-policy-english.pdf",
     "eyebrow": "Contact us",
     "title": "Reaching out is the first step.",
-    "intro": "Our conversations are confidential, and our support is free. We respond within 24 hours, Monday to Friday.",
+    "intro": "Our conversations are confidential, and our support is free. We respond within 24 hours, Monday to Friday. Please review our privacy policy <privacy>here</privacy> to learn more about limits of confidentiality.",
     "methods": {
       "callText": {
         "label": "Call or text",
